@@ -1,5 +1,5 @@
 //
-// nerdaqII  version 0.30  6 September 2012  Martin L. Smith
+// Nerdaq (modified) for EASE           2020 by Hackdogs
 //
 // This code replaces bsudaq and includes additional filtering capability
 // documented below. 
@@ -15,7 +15,7 @@
 // double window should (i think) put the rectangular window's first
 // spectral zero at the nyquist frequency for the final sample rate.
 //
-// 24 July 2011  went to 4 x 512 windows.  the aggregate window is 2048 points
+// Went to 4 x 512 windows.  the aggregate window is 2048 points
 //   and is stepped at 512.  the first zero should be at 18.78/4 or about
 //   4.7 Hz.
 //
