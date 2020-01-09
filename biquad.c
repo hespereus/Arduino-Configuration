@@ -67,4 +67,3 @@ void biquad_clear(biquad_z_t *z, int nbiquads, biquad_sample_t initial)
         }
     }
 } 
-
