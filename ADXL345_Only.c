@@ -1,7 +1,9 @@
 
 #include <Wire.h>
+//Includes wire.h library
 
 int ADXL345 = 0x53
+//Variable for ADXL345
 
 float X_out, Y_out, Z_out;  
 float roll,pitch,rollF,pitchF=0;
